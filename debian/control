@@ -1,7 +1,8 @@
 Source: perl
 Section: perl
 Priority: standard
-Maintainer: Niko Tyni <ntyni@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Niko Tyni <ntyni@debian.org>
 Uploaders: Dominic Hargreaves <dom@earth.li>
 Standards-Version: 3.9.6
 Homepage: http://dev.perl.org/perl5/
