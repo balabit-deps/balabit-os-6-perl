@@ -58,3 +58,11 @@ fixes/ok-pod.diff
 fixes/CVE-2016-2381_duplicate_env.diff
 fixes/CVE-2017-12837.patch
 fixes/CVE-2017-12883.patch
+fixes/CVE-2016-6185.patch
+fixes/CVE-2017-6512-pre.patch
+fixes/CVE-2017-6512.patch
+fixes/CVE-2018-6797.patch
+fixes/CVE-2018-6798-1.patch
+fixes/CVE-2018-6798-2.patch
+fixes/CVE-2018-6798-3.patch
+fixes/CVE-2018-6913.patch
