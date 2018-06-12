@@ -66,3 +66,4 @@ fixes/CVE-2018-6798-1.patch
 fixes/CVE-2018-6798-2.patch
 fixes/CVE-2018-6798-3.patch
 fixes/CVE-2018-6913.patch
+fixes/CVE-2018-12015.patch
