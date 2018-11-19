@@ -1,3 +1,24 @@
+perl (5.22.1-9ubuntu0.6) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Integer overflow leading to buffer overflow
+    - debian/patches/fixes/CVE-2018-18311.patch: handle integer wrap in
+      util.c.
+    - CVE-2018-18311
+  * SECURITY UPDATE: Heap-buffer-overflow write / reg_node overrun
+    - debian/patches/fixes/CVE-2018-18312.patch: fix logic in regcomp.c.
+    - CVE-2018-18312
+  * SECURITY UPDATE: Heap-buffer-overflow read
+    - debian/patches/fixes/CVE-2018-18313.patch: convert some strchr to
+      memchr in regcomp.c.
+    - CVE-2018-18313
+  * SECURITY UPDATE: Heap-based buffer overflow
+    - debian/patches/fixes/CVE-2018-18314.patch: fix extended charclass in
+      pod/perldiag.pod, pod/perlrecharclass.pod, regcomp.c, 
+      t/re/reg_mesg.t, t/re/regex_sets.t.
+    - CVE-2018-18314
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 19 Nov 2018 13:29:35 -0500
+
 perl (5.22.1-9ubuntu0.5) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Directory traversal vulnerability
