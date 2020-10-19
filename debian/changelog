@@ -1,3 +1,23 @@
+perl (5.22.1-9ubuntu0.9) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: heap buffer overflow in regex compiler
+    - debian/patches/fixes/CVE-2020-10543.patch: prevent integer overflow
+      from nested regex quantifiers in regcomp.c.
+    - CVE-2020-10543
+  * SECURITY UPDATE: regex intermediate language state corruption
+    - debian/patches/fixes/CVE-2020-10878.patch: extract
+      rck_elide_nothing in embed.fnc, embed.h, proto.h, regcomp.c.
+    - CVE-2020-10878
+  * SECURITY UPDATE: regex intermediate language state corruption
+    - debian/patches/fixes/CVE-2020-12723.patch: avoid mutating regexp
+      program within GOSUB in embed.fnc, embed.h, proto.h, regcomp.c,
+      t/re/pat.t.
+    - CVE-2020-12723
+  * debian/patches/fixes/fix_test_2020.patch: fix FTBFS caused by test
+    failing in the year 2020 in cpan/Time-Local/t/Local.t.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 19 Oct 2020 06:57:56 -0400
+
 perl (5.22.1-9ubuntu0.6) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Integer overflow leading to buffer overflow

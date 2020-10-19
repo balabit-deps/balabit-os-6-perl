@@ -71,3 +71,7 @@ fixes/CVE-2018-18311.patch
 fixes/CVE-2018-18312.patch
 fixes/CVE-2018-18313.patch
 fixes/CVE-2018-18314.patch
+fixes/CVE-2020-10543.patch
+fixes/CVE-2020-10878.patch
+fixes/CVE-2020-12723.patch
+fixes/fix_test_2020.patch
